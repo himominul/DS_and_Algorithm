@@ -12,7 +12,7 @@ def BLinear_search(list,findvalue):
     for i in range(len(list)):
         if list[i]==findvalue:
             print("Value Found  position at :  ",i)
-            break
+            
     else:
         print("Not Found ! ")
 #Boolean flag using FUnction
@@ -22,7 +22,7 @@ def FLinear_search(mlist,findvalue):
         if mlist[i] == findvalue:
             found = True
             positon = i
-            break
+            
     if found == True:
         print("Value Found  position at :  ",positon)
     else:
@@ -36,12 +36,16 @@ def CLinear_search(mlist,findvalue):
         if mlist[count] == findvalue:
             found = True
             postion = count
-            break
+            
         count +=1
     if found == True:
         print("Value Found  position at : ",postion)
     else:
         print("Value NOt FOund")
+
+
+#-----------------------------------------
+
 
 mList =[int(x) for x in input("Enter The Value of List : ").split()]
 mfind = int(input("Enter the Find Value : "))
