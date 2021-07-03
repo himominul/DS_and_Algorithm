@@ -26,7 +26,7 @@ class Stack:
 
     def top(self):
        if self.isEmpty:
-           print("Stack is Empty")
+           return False
        return self.data[-1]
 
     def show(self):
