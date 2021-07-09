@@ -1,4 +1,4 @@
-from stack import *
+
 
 class Stack:
 
