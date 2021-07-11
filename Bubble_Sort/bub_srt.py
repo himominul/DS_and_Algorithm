@@ -10,6 +10,7 @@ import time
 # timer iis for the speed range
 def bubble(data, drawData, timer):
     n = len(data)
+
      
     for i in range(n):
         for j in range(0, n-i-1):
@@ -24,3 +25,6 @@ def bubble(data, drawData, timer):
          
     # sorted elements generated with Green color
     drawData(data, ['Green' for x in range(len(data))])
+
+
+print('')

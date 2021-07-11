@@ -93,7 +93,7 @@ Button(Mainframe, text="START", bg="Blue", command=start_algorithm).grid(
     row=1, column=3, padx=5, pady=5)
  
 # creating Speed Bar using scale in Tkinter
-speedbar = Scale(Mainframe, from_=0.10, to=2.0, length=100, digits=2,
+speedbar = Scale(Mainframe, from_=0.10, to=2.0, length=100, dis=2,
                  resolution=0.2, orient=HORIZONTAL, label="Select Speed")
 speedbar.grid(row=0, column=2, padx=5, pady=5)
  
